@@ -1,0 +1,42 @@
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-photo {
+  width: 100%;
+}
+
+.member-photo > img {
+  width: 100%;
+}
+
+.member-name {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #3b3b3b;
+  margin-top: 0.5rem;
+}
+
+.member-title {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #6f6f76;
+  margin-top: 0.5rem;
+}
+
+.socials {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.socials > * {
+  color: #3b3b3b;
+  font-size: 20px;
+}

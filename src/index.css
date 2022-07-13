@@ -1,13 +1,51 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@400;700&family=Roboto&family=Rubik:wght@400;600&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  scroll-behavior: smooth;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  color: white;
+  border-radius: 10px;
+  height: 65px;
+  padding-inline: 1.5rem;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Rubik;
+  border: none;
+  line-height: 18px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.brown-bg-btn {
+  background-color: #8c5e3b;
+  border: 1px solid #8c5e3b;
+  color: white;
+}
+
+.brown-bg-btn:hover {
+  background: transparent;
+  color: #8c5e3b;
+}
+
+.white-bg-btn {
+  background-color: white;
+  color: #8c5e3b;
+  border: 1px solid #8c5e3b;
+}
+
+.white-bg-btn:hover {
+  opacity: 0.8;
 }
