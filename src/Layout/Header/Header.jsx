@@ -36,7 +36,7 @@ export default function Header() {
             />
             <FontAwesomeIcon
               icon={faClose}
-              className={navOpen ? "show-hammenu-img" : ""}
+              className={`nav-close-img ${navOpen ? "show-hammenu-img" : ""}`}
             />
           </button>
           <div className={`nav-links ${navOpen ? "show-hammenu" : ""}`}>

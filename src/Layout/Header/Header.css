@@ -79,6 +79,9 @@ header a {
 .header-btn {
   margin-left: -3rem;
 }
+.nav-close-img {
+  color: white;
+}
 .overlay {
   position: fixed;
   inset: 0;
