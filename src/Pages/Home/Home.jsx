@@ -2,17 +2,17 @@ import React from "react";
 import Feature from "../../Components/Feature/Feature";
 import Member from "../../Components/Member/Member";
 
-import plantInHand from "../../Assets/plant-hand.png";
-import farmerTree from "../../Assets/tree.png";
-import soilLayer from "../../Assets/block-layer.png";
-import farmer from "../../Assets/farmer.png";
-import member1 from "../../Assets/team-1.png";
-import member2 from "../../Assets/team-2.png";
-import member3 from "../../Assets/team-3.png";
-import member4 from "../../Assets/team-4.png";
-import brownTree from "../../Assets/brown-tree.png";
-import whiteTree from "../../Assets/white-tree.png";
-import road from "../../Assets/road.png";
+import plantInHand from "../../Assets/plant-hand.webp";
+import farmerTree from "../../Assets/tree.webp";
+import soilLayer from "../../Assets/block-layer.webp";
+import farmer from "../../Assets/farmer.webp";
+import member1 from "../../Assets/team-1.webp";
+import member2 from "../../Assets/team-2.webp";
+import member3 from "../../Assets/team-3.webp";
+import member4 from "../../Assets/team-4.webp";
+import brownTree from "../../Assets/brown-tree.webp";
+import whiteTree from "../../Assets/white-tree.webp";
+import road from "../../Assets/road.webp";
 import "./Home.css";
 
 const features = [

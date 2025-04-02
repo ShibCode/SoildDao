@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import arrow from "../../Assets/arrow.png";
+import arrow from "../../Assets/arrow.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGoogle,
